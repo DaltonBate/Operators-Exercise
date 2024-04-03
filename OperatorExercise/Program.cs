@@ -18,9 +18,9 @@
 
             var radius = double.Parse(userInput);
 
-           AreaOfCircle(radius);
+           Console.WriteLine(AreaOfCircle(radius));
 
-            AreaOfCircle(15);
+            Console.WriteLine(AreaOfCircle(15));
         }
         
         //define a merthod - which performs some functionality. that can be used repeatedly
